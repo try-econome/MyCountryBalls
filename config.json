@@ -1,0 +1,10 @@
+{
+  "Name": "CountryBall",
+  "Report": "Report Forum Channel ID(must be forum atm)",
+  "Log": "Catch Log Channel ID",
+  "Artwork": "Artwork Log Forum Channel ID(must be forum atm)",
+  "Version": "1.1.0",
+  "Caught": "Caught",
+  "owners": ["838105973985771520","id2"],
+  "mongo": "mongodb+srv://username:pass@cluster0.clusterid.mongodb.net/bot"
+}

@@ -1,0 +1,116 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2a2a2a; /* Dark background */
+  color: #ffffff; /* White text */
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em; /* Increase header size */
+  color: #f4f4f4; /* Light color for main heading */
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 2em; /* Increase subheading size */
+}
+
+/* Form styling */
+.form-container {
+  background-color: #3a3a3a; /* Darker container */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+button {
+  width: calc(100% - 20px); /* Adjust for padding */
+  padding: 10px; /* Increased padding */
+  margin: 10px 0; /* Increased margin */
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #222;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="number"] {
+  background-color: #444;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px 15px; /* Consistent button padding */
+  border: none;
+  border-radius: 4px;
+  background: #28a745; /* Green button */
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s; /* Smooth transition on hover */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text alignment */
+}
+
+button.delete-btn {
+  background: #dc3545; /* Red button */
+  color: #ffffff; /* White text for contrast */
+  font-weight: bold; /* Make text bold for emphasis */
+  border: 1px solid #c82333; /* Slightly darker border */
+}
+
+button.delete-btn:hover {
+  background: #c82333; /* Darker red on hover */
+  border: 1px solid #a71c1d; /* Update border color on hover */
+}
+
+
+.ball-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px; /* Limit the width of the list */
+  margin: 0 auto; /* Center the list */
+}
+
+.ball-list li {
+  background: #444; /* List item background */
+  margin: 10px 0; /* Increased margin */
+  padding: 12px; /* Increased padding */
+  border-radius: 4px;
+  display: flex; /* Flexbox for better layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Align items vertically */
+  font-size: 1em; /* Standard font size */
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 8px; /* Space between buttons */
+  padding: 6px 12px; /* Consistent padding for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* White text */
+  transition: background 0.3s; /* Smooth transition */
+}
+
+.edit-btn {
+  background: #007bff; /* Blue button */
+}
+
+.edit-btn:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
