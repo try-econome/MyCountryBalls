@@ -8,7 +8,7 @@
 
 MyCountryballs is an alternative bot to ballsdex in javascript for collecting countryballs on Discord and exchanging them with friends!
 
-You can invite the official bot [here](https://discord.com/api/oauth2/authorize?client_id=999736048596816014&permissions=537193536&scope=bot%20applications.commands).
+You can invite the first official bot [here](https://discord.com/api/oauth2/authorize?client_id=1207017704096141312&permissions=537193536&scope=bot%20applications.commands).
 
 ## Discord server
 
