@@ -3,22 +3,18 @@
 [![Discord server](https://img.shields.io/discord/1049118743101452329?color=7489d5&logo=discord&logoColor=ffffff)](https://discord.gg/Qn2Rkdkxwc)
 ![GitHub contributors](https://img.shields.io/github/contributors/try-econome/MyCountryBalls)
 [![Issues](https://img.shields.io/github/issues/try-econome/MyCountryBalls)](https://github.com/try-econome/MyCountryBalls/issues)
-[![discord.py](https://img.shields.io/badge/discord-js-yellow.svg)](https://github.com/Rapptz/discord.py)
-[![Ko-fi](https://img.shields.io/badge/Patreon-donate-orange.svg)](https://patreon.com/retke)
+[![discord.py](https://img.shields.io/badge/discord-js-yellow.svg)](https://github.com/discordjs/discord.js/)
+[![Ko-fi](https://img.shields.io/badge/Ko%20fi-donate-blue.svg)](https://ko-fi.com/fradz_lifez)
 
-BallsDex is a bot for collecting countryballs on Discord and exchange them with your friends!
+MyCountryballs is an alternative bot to ballsdex in javascript for collecting countryballs on Discord and exchanging them with friends!
 
 You can invite the official bot [here](https://discord.com/api/oauth2/authorize?client_id=999736048596816014&permissions=537193536&scope=bot%20applications.commands).
 
 ## Discord server
 
-For help installing the bot, questions, suggestions to improve or contributions, feel free to join the official community of developers and self-hosters!
+For help setting up the bot, questions, suggestions to improve or contributions, feel free to join the official community of developers & self hosters!
 
-[![Discord server](https://discord.com/api/guilds/1255250024741212262/embed.png?style=banner3)](https://discord.gg/PKKhee4fvy)
-
-> You can also find the server of our official Ballsdex bot here:
-> 
-> [![Discord server](https://discord.com/api/guilds/1049118743101452329/embed.png?style=banner2)](https://discord.gg/Qn2Rkdkxwc)
+[![Discord server](https://discord.com/api/guilds/1255250024741212262/embed.png?style=banner3)](https://discord.gg/F5Y6q23WVx)
 
 ## Suggestions, issues and bug reports
 
@@ -26,20 +22,18 @@ Any bugs, suggestions or issues can be raised by creating an issue on this repo.
 
 ## Documentation
 
-You can learn how to setup Ballsdex and use all of its tools on the
+You can learn how to setup MyCountryBalls and use all of its tools on the
 [wiki](https://github.com/laggron42/BallsDex-Discordbot/wiki/)!
-More sections are added progressively.
 
 ## Supporting
 
-If you appreciate my work, you can support me on my [Patreon](https://patreon.com/retke)!
-
-## Contributing
-
-Take a look at [the contribution guide](CONTRIBUTING.md) for setting up your environment!
+If you appreciate my work, you can support me on my [Ko-fi](https://ko-fi.com/fradz_lifez)!
 
 ## License
 
-This repository is released under the [MIT license](https://opensource.org/licenses/MIT).
+This repository is released under the [GNU General Public License](https://opensource.org/licenses/gpl-3-0).
 
 If distributing this bot, credits to the original authors must not be removed.
+
+## Credits 
+Massive credits to Laggron42 for comming up with the original idea of Ballsdex & .
