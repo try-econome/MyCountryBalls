@@ -1,8 +1,8 @@
 /* General styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #2a2a2a; /* Dark background */
-  color: #ffffff; /* White text */
+  background-color: #2a2a2a;
+  color: #ffffff;
   margin: 0;
   padding: 20px;
 }
@@ -13,18 +13,18 @@ h1, h2 {
 
 h1 {
   margin-bottom: 20px;
-  font-size: 2.5em; /* Increase header size */
-  color: #f4f4f4; /* Light color for main heading */
+  font-size: 2.5em;
+  color: #f4f4f4;
 }
 
 h2 {
   margin-top: 40px;
-  font-size: 2em; /* Increase subheading size */
+  font-size: 2em;
 }
 
 /* Form styling */
 .form-container {
-  background-color: #3a3a3a; /* Darker container */
+  background-color: #3a3a3a;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -32,14 +32,13 @@ h2 {
   max-width: 400px;
 }
 
-
 input[type="text"],
 input[type="number"],
 input[type="file"],
 button {
-  width: calc(100% - 20px); /* Adjust for padding */
-  padding: 10px; /* Increased padding */
-  margin: 10px 0; /* Increased margin */
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
   border: 1px solid #555;
   border-radius: 4px;
   background: #222;
@@ -52,65 +51,81 @@ input[type="number"] {
   color: #ffffff;
 }
 
-button {
-  padding: 10px 15px; /* Consistent button padding */
-  border: none;
-  border-radius: 4px;
-  background: #28a745; /* Green button */
-  color: #fff;
-  cursor: pointer;
-  transition: background 0.3s; /* Smooth transition on hover */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center text horizontally */
-  align-items: center; /* Center text vertically */
-  text-align: center; /* Center text alignment */
-}
-
-button.delete-btn {
-  background: #dc3545; /* Red button */
-  color: #ffffff; /* White text for contrast */
-  font-weight: bold; /* Make text bold for emphasis */
-  border: 1px solid #c82333; /* Slightly darker border */
-}
-
-button.delete-btn:hover {
-  background: #c82333; /* Darker red on hover */
-  border: 1px solid #a71c1d; /* Update border color on hover */
-}
-
-
+/* Ball list styling */
 .ball-list {
   list-style-type: none;
   padding: 0;
-  max-width: 400px; /* Limit the width of the list */
-  margin: 0 auto; /* Center the list */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .ball-list li {
-  background: #444; /* List item background */
-  margin: 10px 0; /* Increased margin */
-  padding: 12px; /* Increased padding */
+  background: #444;
+  padding: 10px;
   border-radius: 4px;
-  display: flex; /* Flexbox for better layout */
-  justify-content: space-between; /* Space between items */
-  align-items: center; /* Align items vertically */
-  font-size: 1em; /* Standard font size */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9em;
+  color: #ffffff;
+  box-sizing: border-box;
 }
 
-.edit-btn,
-.delete-btn {
-  margin-left: 8px; /* Space between buttons */
-  padding: 6px 12px; /* Consistent padding for buttons */
-  border-radius: 4px; /* Rounded corners for buttons */
-  text-decoration: none; /* Remove underline from links */
-  color: #ffffff; /* White text */
-  transition: background 0.3s; /* Smooth transition */
+.ball-list li strong {
+  margin-bottom: 8px;
 }
 
-.edit-btn {
-  background: #007bff; /* Blue button */
+/* Button container */
+.ball-list li .button-grid {
+  display: flex;
+  gap: 5px;
 }
 
-.edit-btn:hover {
-  background: #0056b3; /* Darker blue on hover */
+/* Edit button styling */
+.ball-list li .edit-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #007bff;
+  color: #ffffff;
+  font-size: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s;
+  width: 80px;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.ball-list li .edit-btn:hover {
+  background: #0056b3;
+}
+
+/* Delete button styling */
+.ball-list li .delete-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #dc3545;
+  color: #ffffff;
+  font-size: 0.85em;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 80px;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.ball-list li .delete-btn:hover {
+  background: #c82333;
 }
