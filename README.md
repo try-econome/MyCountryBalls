@@ -14,7 +14,7 @@ You can invite the first official bot [here](https://discord.com/api/oauth2/auth
 
 For help setting up the bot, questions, suggestions to improve or contributions, feel free to join the official community of developers & self hosters!
 
-[![Discord server](https://discord.com/api/guilds/1255250024741212262/embed.png?style=banner3)](https://discord.gg/F5Y6q23WVx)
+[![Discord server](https://discord.com/api/guilds/1118965941221466194/embed.png?style=banner3)](https://discord.gg/F5Y6q23WVx)
 
 ## Suggestions, issues and bug reports
 
