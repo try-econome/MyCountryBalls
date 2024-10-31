@@ -1,6 +1,6 @@
 # MyCountryBalls - Discord Bot
 
-[![Discord server](https://img.shields.io/discord/1049118743101452329?color=7489d5&logo=discord&logoColor=ffffff)](https://discord.gg/Qn2Rkdkxwc)
+[![Discord server](https://img.shields.io/discord/1118965941221466194?color=7489d5&logo=discord&logoColor=ffffff)](https://discord.gg/F5Y6q23WVx)
 ![GitHub contributors](https://img.shields.io/github/contributors/try-econome/MyCountryBalls)
 [![Issues](https://img.shields.io/github/issues/try-econome/MyCountryBalls)](https://github.com/try-econome/MyCountryBalls/issues)
 [![discord.py](https://img.shields.io/badge/discord-js-yellow.svg)](https://github.com/discordjs/discord.js/)
